@@ -1,6 +1,6 @@
-# ecommerce_app_project
+# Amar Dokan  Ecommerce App
 
-A new Flutter project.
+A modern App with Rich Ui Interface.
 
 ## Getting Started
 
