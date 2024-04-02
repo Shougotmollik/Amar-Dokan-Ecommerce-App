@@ -12,5 +12,12 @@ class AppTheme {
     scaffoldBackgroundColor: Colors.deepOrange.shade50,
     textTheme: AppTextTheme.lightTextTheme,
   );
-  static ThemeData darkTheme = ThemeData();
+  static ThemeData darkTheme = ThemeData(
+    useMaterial3: true,
+    fontFamily: 'Poppins',
+    brightness: Brightness.dark,
+    primaryColor: Colors.deepOrange,
+    scaffoldBackgroundColor: Colors.black,
+    textTheme: AppTextTheme.darkTextTheme,
+  );
 }
