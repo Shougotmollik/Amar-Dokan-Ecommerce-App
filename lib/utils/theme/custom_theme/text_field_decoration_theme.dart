@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class AppTextFieldTheme {
-  AppTextFieldTheme._();
+class AppTextFieldDecorationTheme {
+  AppTextFieldDecorationTheme._();
 
   // light input field
   static InputDecorationTheme lightInputDecorationTheme = InputDecorationTheme(
