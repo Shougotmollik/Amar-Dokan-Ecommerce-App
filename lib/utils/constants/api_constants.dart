@@ -1,1 +1,3 @@
-const String AppSecrectAPIKey = " ";
+class ApiConstants {
+  static const String AppSecrectAPIKey = " ";
+}
