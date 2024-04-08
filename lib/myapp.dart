@@ -1,5 +1,7 @@
-import 'package:ecommerce_app_project/utils/theme/theme.dart';
+import 'package:amardokan/features/authentication/screens/onboarding.dart';
+import 'package:amardokan/utils/theme/theme.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -8,10 +10,13 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
+      title: "Amar Dokan",
       themeMode: ThemeMode.system,
       theme: AppTheme.lightTheme,
       darkTheme: AppTheme.darkTheme,
+      debugShowCheckedModeBanner: true,
+      home: const OnBoardingScreen(),
     );
   }
 }
