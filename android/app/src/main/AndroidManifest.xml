@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="ecommerce_app_project"
+        android:label="amardokan"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
