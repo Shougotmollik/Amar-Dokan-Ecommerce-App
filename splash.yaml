@@ -1,0 +1,9 @@
+flutter_native_splash:
+  color: "#FF3D00"
+  image: assets/logos/amarDokanSplashScreen.png
+
+android 12:
+  color: "#FF3D00"
+  image: assets/logos/amarDokanSplashScreen.png
+
+web: false
